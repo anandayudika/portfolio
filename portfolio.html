@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .content{
+            height: 1000px;
+            margin: 50px 150px;
+        }
+        .kotak1{
+            display: flex;
+            justify-content: center;
+            height: 100px;
+            width: 100%;
+            text-align: center;
+            font-size: 70px;
+            color: saddlebrown;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            flex-direction: column;
+        }
+        .kotak2{
+            display: flex;
+            justify-content: center;
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            color: goldenrod;
+            font-style: italic;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            flex-direction: column;
+
+        }
+        .kotak3{
+            display: flex;
+            justify-content:space-between;
+            height: 700px;
+            padding: 20px 35px;
+        }
+        .biodata {
+            background-color: sandybrown;
+            justify-content: center;
+            border-radius: 30px;
+            color: white;
+            width: 600px;
+            padding: 65px 15px 25px 10px;
+            display: grid;
+            grid-row-gap: 5px;
+        }
+        .data{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 23px;
+        }
+        .text-title{
+            font-weight: bold;
+        }
+
+        .details {
+            width: 100%;
+            margin-left: 55px;
+        }
+        .image{
+            background-color: silver;
+            width: 100%;
+            height: 350px;
+            border-radius: 20px;
+        }
+        .foto{
+            border-radius: inherit;
+            width: 100%;
+            height: inherit;
+            object-fit: cover;
+        }
+        .row{
+            display: flex;
+            width: 100%;
+            height: 150px;
+            margin-top: 25px;
+            justify-content: space-between;
+        }
+        .value{
+            height: 100%;
+            width: 300px;
+            display: grid;
+            grid-row-gap: 10px;
+        }
+        .value-title{
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: saddlebrown;
+            font-weight: bold;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: oblique;
+            width: 100%;
+            height: 45px;
+        }
+        .value-main{
+            width: 100%;
+            font-size: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: goldenrod;
+            font-weight: bold;
+            height: 95px;
+            }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="content">
+        <div class="kotak1">HELLO</div>
+        <div class="kotak2">I'm a Frontend Engineer</div>
+        <div class="kotak3">
+            <div class="biodata">
+                <div class="data">
+                    <div class="title">Name</div>
+                    <div class="text-title">Ananda Yudika</div>
+
+                </div>
+                <div class="data">
+                    <div class="title">Birthday</div>
+                    <div class="text-title">12.09.1998</div>
+
+                </div>
+                <div class="data">
+                    <div class="title">Role</div>
+                    <div class="text-title">Frontend Engineer</div>
+
+                </div>
+                <div class="data">
+                    <div class="title">Email</div>
+                    <div class="text-title">yudikaananda@gmail.com</div>
+
+                </div>
+                <div class="data">
+                    <div class="title">Phone</div>
+                    <div class="text-title">08123456789</div>
+
+                </div>
+                <div class="data">
+                    <div class="title">Website</div>
+                    <div class="text-title">Purwadhika.com</div>
+
+                </div>
+                <div class="data">
+                    <div class="title">Location</div>
+                    <div class="text-title">Pekanbaru,Indonesia</div>
+
+                </div>
+                    <div class="data">
+                        <div class="title">Interest</div>
+                        <div class="text-title">Books,Games,Sport</div>
+
+                    </div>
+            </div>
+            <div class="details">
+                <div class="image">
+                    <img class="foto" alt="Foto" src="IMG_20220112_144855.jpg">
+                </div>
+                <div class="row">
+                    <div class="value">
+                        <div class="value-title">Awards Won</div>
+                        <div class="value-main">17</div>
+                    </div>
+                    <div class="value">
+                        <div class="value-title">Xp Year</div>
+                        <div class="value-main">12+</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="value">
+                        <div class="value-title">Clients</div>
+                        <div class="value-main">70</div>
+                    </div>
+                    <div class="value">
+                        <div class="value-title">Projects</div>
+                        <div class="value-main">86</div>
+                    </div>
+                </div>
+                <div class="clients">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
